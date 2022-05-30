@@ -6,4 +6,5 @@ RUN curl -L https://github.com/plantuml/plantuml/releases/download/v1.2022.4/pla
 
 RUN luaotfload-tool --update
 
+ENV TZ Europe/Berlin
 ENV PLANTUML_JAR /usr/share/plantuml-1.2022.4.jar
